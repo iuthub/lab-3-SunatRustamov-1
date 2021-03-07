@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body
+{
+    background: url("images/bck.jpg") 50% 50% no-repeat; /*-- link to the given lab background was not working, so i decided to find similar photo-*/
+    background-size: cover;
+}
+
+.container
+{
+    width: 900px;
+    margin: 0 calc((100% - 900px)/2);
+    height: 550px;
+    border: solid 10px white;
+    background: #fff;
+
+}
+.left
+{
+    width: 20%;
+    float: left;
+    height: auto;
+    border: solid 4px #00858C;
+    padding: 5px;
+    margin-top: 10px;
+}
+.right
+{
+    width: 77%;
+    float: right;
+}
+#bigger_h1
+{
+    font-weight: 400;
+    font-size: 28px;
+}
+
+
+.section
+{
+
+    padding: 5px;
+    margin-top: 10px;
+    border: solid 4px #C2E9E9;
+    background: #E8FBFB;
+    height: 210px;
+}
+.header
+{
+   background: #A8F0F0;
+   min-height: 70px;
+}
+.float_right
+{
+    display: inline-block;
+    float: right;
+}
+
+h2
+{
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+h1
+{
+    font-size: 24px;
+    letter-spacing: 2px;
+
+}
+.header_clarification
+{
+    font-size: 14px;
+    float: right;
+}
+.time
+{
+    border-bottom: #245F5F 2px dashed ;
+}
+.text1
+{
+    word-spacing: 2px;
+    font-size: 16px;
+    margin-top: 30px;
+    display: block;
+}
+
+.text2
+{
+    display: block;
+    font-size: 16px;
+
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+
+
+
